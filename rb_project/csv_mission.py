@@ -3,7 +3,7 @@ import csv
 from mavsdk import System
 from mavsdk.mission import MissionItem, MissionPlan
 
-CSV_PATH = "/home/raji/MAVSDK_tests/rauf/waypoints.csv"
+CSV_PATH = "/home/raji/MAVSDK_tests/rb_project/waypoints.csv"
 CRUISE_SPEED = 2.0  # m/s
 FLIGHT_ALT = 30.0   # Used if alt not in CSV
 
